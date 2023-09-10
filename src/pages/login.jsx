@@ -37,7 +37,10 @@ export default function Login() {
             <div className='flex flex-col w-2/5'>
                 <div className='flex flex-col items-center bg-white p-4 border border-gray-primary rounded mb-4'>
                 <h1 className='flex justify-center w-full'>
-                    <img src='/images/logo.png' alt='Instagram' className='mt-2 w-6/12 mb-4' />
+                    <div className='text-2xl font-bold mt-2'>
+                        NOT 
+                    </div> 
+                    <img src='/images/logo.png' alt='Instagram' className='mt-2 w-6/12 mb-4 ml-2' />
                 </h1>
                 {error && <p className='mb-4 text-xs text-red-primary'>{error}</p>}
                 <form onSubmit={handleLogin} method='POST'>
