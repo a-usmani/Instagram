@@ -98,7 +98,7 @@ export default function InfoBar(){
                                         ): null}
                                     </button>
                                     {user && (
-                                        <div className="flex items-center cursor-pointer group hover:bg-gray-press p-2 rounded-md">
+                                        <Link to={`/p/${loggedInUser?.username}`} aria-label='Dashboard' className="flex items-center cursor-pointer group hover:bg-gray-press p-2 rounded-md">
                                             <Link to={`/p/${loggedInUser?.username}`} className='flex '>
                                             <img
                                                 className="flex group-hover:scale-105 transition ease-in-out delay-150 rounded-full h-8 w-8 flex"
@@ -112,7 +112,8 @@ export default function InfoBar(){
                                                 <span className='flex pt-1 ml-3 text-lg'>Profile</span>
                                             ): null}
                                             </Link>
-                                        </div>
+                                        </Link>
+                                        
                                     )}
                                 </>
                             ) : (null)
