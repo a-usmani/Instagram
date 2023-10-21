@@ -1,6 +1,6 @@
 # instagram
 
-Instagram clone the uses firebase auth calls to create accounts, login/sign up, follow others, like posts, and add comments. Users can also view others' profiles and view different app displays at different screen widths
+Instagram clone that uses firebase authentication calls to create accounts, login/sign up, follow others, like posts, and add comments. Users can also view others' profiles and view different app displays at different screen widths
 
 ![2023-08-16 (6)](https://github.com/a-usmani/instagram/assets/105238278/e430c814-34c0-4cd5-9f3c-cead6b40f4fe)
 ![2023-08-16 (7)](https://github.com/a-usmani/instagram/assets/105238278/872d511a-e174-485c-9419-2c5509158dda)
